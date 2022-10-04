@@ -17,6 +17,6 @@ public class UserController {
 
     @RequestMapping("/add")
     public void addUser(@RequestBody User user) {
-        userService.addUser(user);
+        userService.addUserService(user);
     }
 }

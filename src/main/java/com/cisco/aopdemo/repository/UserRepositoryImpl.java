@@ -13,7 +13,7 @@ public class UserRepositoryImpl implements UserRepository {
     private List<User> users = new ArrayList<>();
 
     @Override
-    public void addUser(User user) {
+    public void addUserRepo(User user) {
         users.add(user);
     }
 }
